@@ -1,0 +1,101 @@
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #4B9CD3;
+  margin: 0;
+  padding: 0;
+  color: #4B9CD3;
+}
+
+.home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.unc-background {
+  position: absolute;
+}
+
+.unc-background img {
+  opacity: 0.3;
+}
+
+.center {
+  text-align: center;
+}
+
+.description {
+  position: relative;
+  width: 80%;
+  background-color: rgba(19,41,75,0.81);
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7em;
+  padding: 3%;
+}
+
+.description p {
+  line-height: 2em;
+}
+
+.intro-description {
+  position: relative;
+  width: 80%;
+  background-color: rgba(19,41,75,0.81);
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7em;
+  padding: 3%;
+}
+
+button {
+  font-size: 20px;
+  color: #4B9CD3;
+  width: 25%;
+  height: 15%;
+  border: 4px solid #4B9CD3;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: #eee;
+  border: 4px solid #13294B;
+}
+
+#assess-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-group {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-group input {
+  width: 8%;
+  height: 15%;
+  margin-left: 0.5em;
+}
+
+select {
+  margin-left: 0.5em;
+}
+
+.assess {
+  width: 100%;
+}
+
+#assess-button {
+  width: 25%;
+  height: 10%;
+}
+
+#introForm {
+  text-align: center;
+}
